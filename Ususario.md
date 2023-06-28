@@ -1,6 +1,48 @@
 # Manual Usuario Tiendita en ASM 🍱
 ![Máquina expendedora de snacks](https://img.freepik.com/vector-premium/maquina-expendedora-snack-crackers-comida-chatarra-bebidas-gaseosas-saling-venta-automatica-coleccion-dibujos-animados_80590-7141.jpg?w=2000)
 
+El programa se realizó utilizando MASM 6.11 y el emulador DosBox para poder compilar el mismo, a continuacion un [enlace para la instalacion
+de markdown en Windows 10](https://www.youtube.com/watch?v=nrmz66Qe8R0) 
+Ademas de esto se utilizó como apollo el documento de interrupciones para masm proporcionado en el laboratorio, una tabla de caracteres acii en hexadecimal y jun listado de jmp 
+
+## Requisitos minimos ‼‼ 
+El ensamblador MASM 6.11, lanzado por Microsoft en 1993, es compatible con sistemas operativos de la época, como MS-DOS y versiones antiguas de Windows. A continuación se detallan los requisitos mínimos típicos para ejecutar programas creados con MASM 6.11:
+
+### Sistema operativo 🖥
+
+- MS-DOS 3.0 o posterior.
+- Windows 3.x (por ejemplo, Windows 3.1).
+### Hardware:
+
+Procesador Intel 80386 o posterior. MASM 6.11 no es compatible con procesadores más nuevos como los de la serie Intel Pentium.
+Se recomienda un mínimo de 4 MB de RAM (aunque MASM 6.11 puede funcionar con menos).
+🛑Ten en cuenta que MASM 6.11 es una versión antigua del ensamblador y no es compatible con sistemas operativos modernos, como Windows 10. Si estás utilizando un sistema operativo más reciente, es posible que debas considerar el uso de versiones más recientes del ensamblador MASM, como MASM 6.15 o MASM32, que son compatibles con sistemas operativos modernos y ofrecen características y mejoras adicionales🛑
+
+## Introducción
+La aplicación de Gestión es una herramienta diseñada para administrar productos, realizar ventas y generar informes. Este manual proporciona una guía detallada sobre cómo utilizar todas las funcionalidades de la aplicación.
+
+### Requisitos del sistema
+Sistema operativo: Windows 10 o posterior.
+
+## Inicio de sesión
+para el inicio de sesion recomiendo tener un archivo con sus credenciales 
+
+### Gestión de productos
+En esta sección, puedes realizar las siguientes acciones:
+
+### Agregar producto: Haz clic en el botón "Agregar producto" y completa el formulario con la información del producto (nombre, precio, descripción, etc.). Luego, presiona el botón "Guardar" para agregar el producto a la base de datos.
+### Eliminar producto: Busca el producto que deseas eliminar y haz clic en el botón "Eliminar". Confirmar la acción en el cuadro de diálogo que aparece.
+### Mostrar productos: Se mostrará una lista de todos los productos disponibles con detalles como el nombre, precio y cantidad.
+Realizar ventas
+En esta sección, puedes llevar a cabo las siguientes acciones:
+
+### Agregar venta: Haz clic en  "Agregar venta" y selecciona los productos que el cliente desea comprar. Ingresa la cantidad y confirma la venta. El inventario se actualizará automáticamente.
+Ver ventas: Podrás ver un historial de todas las ventas realizadas, incluyendo detalles como la fecha, el cliente, los productos y el monto total.
+### Reportes
+La sección de reportes te permite generar informes sobre las ventas y el inventario. Puedes generar los siguientes tipos de informes:
+
+
+
 ## Descripción de la maquina🖥
 La máquina expendedora es un dispositivo electrónico que permite a los usuarios seleccionar productos, realizar pagos y recibir los productos elegidos. Además, esta máquina está equipada con características adicionales que le permiten a los usuarios personalizar su experiencia de compra y a los operadores de la máquina administrar y mantener el sistema.
 ### Seleccion🔀
@@ -27,8 +69,6 @@ Descargar el archivo APK: Una vez que hayas creado la aplicación en App Invento
 Tener suficiente espacio de almacenamiento: Para instalar una aplicación creada en App Inventor, necesitas tener suficiente espacio de almacenamiento disponible en tu dispositivo Android. El tamaño de la aplicación dependerá de la cantidad de elementos multimedia que contenga, como imágenes, sonidos y videos.
 
 En general, los requisitos para descargar una aplicación creada en App Inventor son bastante simples. Solo necesitas tener un dispositivo Android, permitir la instalación de aplicaciones de origen desconocido, descargar el archivo APK y tener suficiente espacio de almacenamiento. Una vez que tengas todo esto, puedes instalar la aplicación en tu dispositivo y empezar a usarla.
-
-![Máquina expendedora de snacks](http://appinventor.mit.edu/explore/sites/explore.appinventor.mit.edu/files/ai-bee-logo.png)
 
 ### Funcionamiento y flujo de trabajo 📱
 #### Inicio de sesión
